@@ -25,7 +25,7 @@ class AddTodo extends Component {
                     <input type = "text" onChange = {this.handleChange} value = {this.state.content}/>
                 </form>
 
-                <button onClick = {this.handleSubmit} class="btn pulse waves-effect waves-light" type="submit" name="action">Submit
+                <button onClick = {this.handleSubmit} class="btn waves-effect waves-light" type="submit" name="action">Submit
                     <i class="material-icons right">send</i>
                 </button>
             </div>
